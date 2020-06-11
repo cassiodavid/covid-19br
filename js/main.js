@@ -99,7 +99,8 @@ function carregaDadosGeralBr() {
 }
 
 
-
+function valores() { return recuperados }
+function valores2() { return obitos }
 
 
 async function carregaGrafico() {
@@ -153,7 +154,7 @@ async function carregaGraficoSuspeitas() {
                 backgroundColor: '#D2691E',
                 borderColor: '#D2691E',
                 fill: false
-               
+
             }]
         },
         options: {
@@ -188,7 +189,7 @@ async function carregaGraficoBarMortes() {
                 backgroundColor: '#800000',
                 borderColor: '#800000',
                 fill: false
-               
+
             }]
         },
         options: {
@@ -206,6 +207,15 @@ async function carregaGraficoBarMortes() {
                 intersect: true
             },
         }
-        
+
     });
 }
+
+
+/*
+function myFunction() {
+    var para = document.createElement("a");
+    para.innerHTML = recuperados;
+    document.getElementById("algo").appendChild(para);
+}
+*/
