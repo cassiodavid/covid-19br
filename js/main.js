@@ -99,10 +99,6 @@ function carregaDadosGeralBr() {
 }
 
 
-function valores() { return recuperados }
-function valores2() { return obitos }
-
-
 async function carregaGrafico() {
     console.log(ativos)
     var ctx = document.getElementById('canvas').getContext('2d');
@@ -210,12 +206,3 @@ async function carregaGraficoBarMortes() {
 
     });
 }
-
-
-/*
-function myFunction() {
-    var para = document.createElement("a");
-    para.innerHTML = recuperados;
-    document.getElementById("algo").appendChild(para);
-}
-*/
